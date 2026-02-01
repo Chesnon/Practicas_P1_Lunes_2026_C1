@@ -1,1 +1,3 @@
-LEER ESTO IMPORTANTE O ALGO ASI
+LEER ESTO IMPORTANTE 
+
+Entonces tienes que leerlo con cuidado
