@@ -2,7 +2,7 @@
 {
     static void Main()
     {
-        Program.Fecha();
+        Program.Operaciones();
         // TODO: agregar un case para cada clase
     }
 
