@@ -6,9 +6,6 @@
     {
         Console.WriteLine("PI es: " + PI);
 
-        PI = 23
-
-
         Variables.Show();
     }
 }
@@ -24,5 +21,6 @@ class Variables
         
         Console.WriteLine("\n\n\n\n");
         Console.WriteLine($"Variable numerica: {number}\nVariable decimal: {decimalValue}\nVariable String: {name}\nVariable booleana: {booleana}");
+
     }
 }
