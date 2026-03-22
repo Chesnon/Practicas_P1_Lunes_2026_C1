@@ -2,8 +2,29 @@
 {
     static void Main()
     {
-        Program.Operaciones();
-        // TODO: agregar un case para cada clase
+        Console.WriteLine("Ingrese el programa que desea ejecutar:");
+        Console.WriteLine("Fecha");
+        Console.WriteLine("Float");
+        Console.WriteLine("Operaciones\n");
+        string Opcions = Console.ReadLine();
+
+        switch (Opcions)
+        {
+            case "Fecha":
+                Program.Fecha();
+                break;
+
+            case "Float":
+                Program.Float();
+                break;
+
+            case "Operaciones":
+                Program.Operaciones();
+                break;
+
+
+                // TODO: agregar un case para cada clase
+        }
     }
 
 
@@ -37,7 +58,7 @@
 
         int IntNumberOne = 59;
         int IntNumberTwo = 4;
-        int Result = 0;
+        int Result;
 
         Console.WriteLine($"Numero 1: {IntNumberOne}, Numero 2: {IntNumberTwo}\n");
 
