@@ -6,7 +6,7 @@ namespace Final_Proyect.Models
 {
     public class Jugador
     {
-        public int id { get; set; }
+        public int Id { get; set; }
         public string Nombre { get; set; } 
         public int EquipoId { get; set; }
 
